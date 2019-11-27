@@ -7,7 +7,4 @@ def aboutus(request):
     return render(request,'aboutus.html')
 def contactus(request):
     return render(request,'contactus.html')
-def login(request):
-    return render(request,'login.html')
-def register(request):
-    return render(request,'register.html')
+
